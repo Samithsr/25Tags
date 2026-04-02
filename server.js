@@ -31,7 +31,7 @@ client.on('connect', () => {
         }
       });
     });
-  }, 20000);
+  }, 30000);
 });
 
 client.on('error', (err) => {
